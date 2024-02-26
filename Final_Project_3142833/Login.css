@@ -1,0 +1,106 @@
+ .u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 450px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 23px auto 60px;
+}
+
+.login-box {
+  width: 60%;
+  height: 85%;
+  margin: auto;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  border-radius: 7px;
+  background-color: white;
+  opacity: 0.9;
+}
+
+/* sets width for screens above 768px such as laptops*/
+@media (min-width: 768px) {
+  .signup-box {
+    width: 60%;
+  }
+}
+
+/* sets width for screens between 300px and 767px such as mobiles*/
+@media (min-width: 300px) and (max-width: 767px) {
+  .signup-box {
+    width: 80%;
+  }
+}
+
+label{
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+  color: black;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 90%;
+  margin-left: 5%;
+}
+
+form label {
+  display: flex;
+  margin-top: 7%;
+  font-size: 18px;
+}
+
+form input {
+  width: 100%;
+  padding: 2%;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  color: black;
+  outline: none;
+}
+
+
+input[type="submit"] {
+  align-content: center;
+  width: 50%;
+  height: 10%;
+  margin-bottom: 3%;
+  margin-left: 27%;
+  border: none;
+  background-color: #49c1a2;
+  color: black;
+  font-size: 18px;
+}
+
+input[type="password"]  {
+  margin-bottom: 2%;
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.para-2 {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.para-2 a {
+  color: #49c1a2;
+}
